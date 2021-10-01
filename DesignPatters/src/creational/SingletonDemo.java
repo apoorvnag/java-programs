@@ -3,12 +3,12 @@ package creational;
 public class SingletonDemo {
 	public static void main(String[] args) {
 		System.out.println("Hello");
-		SingletonClass object = SingletonClass.getInstance();
-		System.out.println(object);
+		SingletonClass object1 = SingletonClass.getInstance();
+		System.out.println(object1);
 		SingletonClass object2 = SingletonClass.getInstance();
 		System.out.println(object2);
 
-		System.out.println(object == object2);
+		System.out.println(object1 == object2);
 
 //		SingletonClass object3 = new SingletonClass();
 //		System.out.println(object2 == object3);
