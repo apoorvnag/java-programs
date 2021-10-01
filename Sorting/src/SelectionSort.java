@@ -3,7 +3,7 @@ public class SelectionSort {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int a[] = {2,5,1,7,5,8,3,2,4,8,6,11,33,45,23,75,98};
+		int a[] = {2,5,1,7,5,8,3,2,4,8,6,11,33,45,23,75,98,47,99,99};
 		Sorter sorter = new Sorter();
 //		sorter.selectionSort(a);
 //		sorter.bubbleSort(a);
