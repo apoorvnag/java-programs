@@ -12,6 +12,14 @@ public class ScannerDemo {
 		scan.nextLine();
 		String str = scan.nextLine();
 		System.out.println(str);
+		//get Name
+		System.out.print("Enter your name: ");    
+         	String name = in.next();   
+          	System.out.println("Name: " + name);  
+		//get age
+          	System.out.print("Enter your age: ");  
+          	int i = in.nextInt();  
+          	System.out.println("Age: " + i);
 		scan.close();
 
 	}
