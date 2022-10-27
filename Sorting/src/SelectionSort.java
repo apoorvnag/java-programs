@@ -2,16 +2,14 @@
 public class SelectionSort {
 
 	public static void main(String[] args) {
-		int a[] = {2,5,1,7,5,8,3,2,4,8,6,11,33,45,23,75,98,47,99,99};
+		int arr[] = {2,5,1,7,5,8,3,2,4,8,6,11,33,45,23,75,98,47,99,99};
 		Sorter sorter = new Sorter();
 //		sorter.selectionSort(a);
 //		sorter.bubbleSort(a);
 //		sorter.recursiveBubbleSort(a, a.length);
 //		sorter.insertionSort(a);
-		sorter.recursiveInsertionSort(a, a.length);
-		
-		
-		for(int i:a){
+		sorter.recursiveInsertionSort(arr, arr.length);
+		for(int i:arr){
 			System.out.println(i);
 		}
 	}
@@ -19,7 +17,6 @@ public class SelectionSort {
 
 class Sorter {
 	public void recursiveInsertionSort(int[] a, int n) {
-		// TODO Auto-generated method stub
 		if (n == 1) {
 			return;
 		}
